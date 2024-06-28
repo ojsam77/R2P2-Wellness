@@ -131,8 +131,8 @@ a p :hover {
   display: none;
   flex-direction: column;
   justify-content: space-between;
-  width: 30px;
-  height: 21px;
+  width: 35px;
+  height: 26px;
 }
 
 .toggle-button .bar {
