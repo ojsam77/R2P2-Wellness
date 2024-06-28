@@ -690,6 +690,22 @@ h3 {
   padding-top: 117px;
 }
 
+.div-block.movement {
+  background-image: url('src/assets/outdoor.jpg');
+  padding-top: 117px;
+}
+
+.div-block.dance {
+  background-image: url('src/assets/dance.jpeg');
+  padding-top: 117px;
+}
+
+.div-block.pilates {
+  background-image: url('src/assets/pilates.jpeg');
+  padding-top: 117px;
+}
+
+
 .cf-services-paragraph {
   margin-bottom: 40px;
   font-family: Montserrat, sans-serif;
@@ -837,7 +853,7 @@ h3 {
   grid-column-gap: 40px;
   grid-row-gap: 0px;
   grid-template-rows: auto;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   width: 90%;
   max-width: 1240px;
   margin-bottom: 100px;
