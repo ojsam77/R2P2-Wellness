@@ -182,7 +182,7 @@ a p :hover {
   margin: auto;
   top: 0px;
   background-color: rgba(255, 255, 255, 0.176);
-  background-image: url('/assets/Clouds.png');
+  background-image: url('Clouds.png');
   filter: blur(8px);
   -webkit-filter: blur(8px);
   border-radius: 40px;
@@ -500,7 +500,7 @@ h3 {
   padding: 80px 30px;
   position: relative;
   top: 24px;
-  background-image: url('/assets/water.png');
+  background-image: url('water.png');
   background-position: 0 0;
   background-size: contain;
 }
@@ -648,7 +648,7 @@ h3 {
   height: 500px;
   text-align: center;
   text-shadow: -1px 1px 1px rgba(0, 0, 0, .76);
-  background-image: url('/assets/Nutrition/veggies.jpg');
+  background-image: url('Nutrition/veggies.jpg');
   -webkit-transform: translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
   -moz-transform: translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
   -ms-transform: translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
@@ -680,23 +680,23 @@ h3 {
 }
 
 .div-block.healing {
-  background-image: url('/assets/Healing/healing\ hands.jpg');
+  background-image: url('Healing/healing\ hands.jpg');
   
   padding-top: 120px;
 }
 
 .div-block.yoga {
-  background-image: url('/assets/Yoga/lady\ on\ cliff\ small.jpg');
+  background-image: url('Yoga/lady\ on\ cliff\ small.jpg');
   padding-top: 117px;
 }
 
 .div-block.movement {
-  background-image: url('/assets/outdoor.jpg');
+  background-image: url('outdoor.jpg');
   padding-top: 117px;
 }
 
 .div-block.dance {
-  background-image: url('/assets/dance.jpeg');
+  background-image: url('dance.jpeg');
   padding-top: 117px;
 }
 
@@ -887,7 +887,7 @@ h3 {
 
 .cf-form-submit-button {
   background-color: rgba(0, 0, 0, 0);
-  background-image: url('/assets/images/ArrowRight.svg');
+  background-image: url('/images/ArrowRight.svg');
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: auto;
@@ -912,14 +912,14 @@ h3 {
 }
 
 .cf-form-submit-button.black {
-  background-image: url('/assets/images/ArrowRight_1.svg');
+  background-image: url('/images/ArrowRight_1.svg');
 }
 
 .cf-form-text-field {
   color: #fff;
   letter-spacing: -.16px;
   background-color: rgba(0, 0, 0, 0);
-  background-image: url('/assets/images/EnvelopeSimple-white.svg');
+  background-image: url('/images/EnvelopeSimple-white.svg');
   background-position: 0%;
   background-repeat: no-repeat;
   background-size: auto;
@@ -939,7 +939,7 @@ h3 {
 
 .cf-form-text-field.black {
   color: #0d0e10;
-  background-image: url('/assets/images/EnvelopeSimple.svg');
+  background-image: url('/images/EnvelopeSimple.svg');
 }
 
 .cf-form-text-field.black::placeholder {
