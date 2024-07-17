@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8" />
-  <link rel="icon" type="image/svg+xml" href="/R2P2.svg" />
+  <link rel="icon" type="image/svg+xml" href="/assets/R2P2.svg" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>R2P2 Services</title>
   <link type="text/css" rel="stylesheet" href="index.css">
@@ -14,21 +14,21 @@
     <a href="#" class="button-primary w-button">Embark Now</a>
     </div>
   </nav>
-  <div class="logo"><a href="index.html"><img src="./src/assets/R2P2Logo.png" alt="R2P2Logo"></a></div>
+  <div class="logo"><a href="index.html"><img src="/assets/R2P2Logo.png" alt="R2P2Logo"></a></div>
   <nav class="navbar">
-    <a onclick=showSidebar() href="#" class="toggle-button">
+    <a onclick=showSidebar() href="#" class="toggle-button" aria-label="Mobile Menu">
       <span class="bar"></span>
       <span class="bar"></span>
       <span class="bar"></span>
     </a>
     <div class="navbar-links">
       <ul>
-        <li><a href="Abouts%20Us.html">About Us</a></li>
+        <li><a href="About.html">About Us</a></li>
         <li><a href="Services.html">Services</a></li>
-        <li><a href="Testimonial.html">Community Beat</a></li>
+        <li><a href="Testimonial.html">Testimonal</a></li>
         <li><a href="Schedule.html">Schedule</a></li>
-        <!-- <li><a href="Learn.html">Learn</a></li>
-      <li><a href="Shop.html">Shop</a></li>--> v
+        <li><a href="Learn.html">Learn</a></li>
+        <li><a href="Shop.html">Shop</a></li>
       </ul>
     </div>
     <ul class="sidebar">
@@ -37,12 +37,12 @@
             <path
               d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
           </svg></a></li>
-      <li><a href="Abouts%20Us.html">About Us</a></li>
+      <li><a href="About.html">About Us</a></li>
       <li><a href="Services.html">Services</a></li>
-      <li><a href="Testimonial.html">Community Beat</a></li>
+      <li><a href="Testimonial.html">Testimonals</a></li>
       <li><a href="Schedule.html">Schedule</a></li>
-      <!-- <li><a href="Learn.html">Learn</a></li>
-      <li><a href="Shop.html">Shop</a></li>-->
+      <li><a href="Learn.html">Learn</a></li>
+      <li><a href="Shop.html">Shop</a></li>
     </ul>
   </nav>
 
@@ -53,7 +53,7 @@
         <div class="cf-features-section-2-grid-cell">
           <div class="cf-features-section-2-image-wrapper">
             <div class="div-block yoga ripples"><h4>Yoga</h4>
-              <a href="Movement.html">
+              <a href="Movement.html" aria-label="Yoga">
               <span class="link-spanner"></span>
               </a>
             </div>
@@ -68,7 +68,7 @@
         <div class="cf-features-section-2-grid-cell homepage-3">
           <div class="cf-features-section-2-image-wrapper">
             <div class="div-block pilates ripples"><h4>Pilates</h4>
-              <a href="Movement.html">
+              <a href="Movement.html" aria-label="Pilates">
                 <span class="link-spanner"></span>
               </a>
             </div>
@@ -78,7 +78,7 @@
         <div class="cf-features-section-2-grid-cell homepage-3">
           <div class="cf-features-section-2-image-wrapper">
             <div class="div-block dance ripples"><h4>Dance</h4>
-              <a href="Movement.html">
+              <a href="Movement.html" aria-label="Dance">
                 <span class="link-spanner"></span>
               </a>
             </div>
@@ -94,8 +94,8 @@
   
     <script type="module" src="/src/main.jsx"></script>
 
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-    <script src="jquery.ripples.js"></script>
+    <script src="/assets/js/jquery.min.js"></script>
+    <script src="/assets/js/jquery.ripples.js"></script>
     <script>
       $(document).ready(function () {
         $('body').ripples({
