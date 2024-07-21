@@ -9,10 +9,22 @@
   </head>
   <body class="jquery-ripples">
     <nav role="navigation" class="nav-menu-wrapper-three w-clearfix w-nav-menu">
-      <a href="#" class="button-primary w-button">Book Now</a>
-      </div>
+      <script src="https://calendar.google.com/calendar/scheduling-button-script.js" async></script>
+      <script>
+        (function () {
+          var target = document.currentScript;
+          window.addEventListener('load', function () {
+            calendar.schedulingButton.load({
+              url: 'https://calendar.google.com/calendar/appointments/AcZssZ1vFZDKGDoMNxED-8op6bS4BfpMUCUB3ci1ogM=?gv=true',
+              color: '#2e3192',
+              label: "Embark Now",
+              target,
+            });
+          });
+        })();
+      </script>
     </nav>
-    <div class="logo"><a href="index.html"><img src="/assets/R2P2Logo.png" alt="R2P2Logo"></a></div>
+    <div class="logo"><a href="index.html"><img src="/assets/R2P2Logo.webp" alt="R2P2Logo"></a></div>
     <nav class="navbar">
       <a onclick=showSidebar() href="#" class="toggle-button" aria-label="Mobile Menu">
         <span class="bar"></span>
@@ -23,7 +35,7 @@
         <ul>
           <li><a href="About.html">About Us</a></li>
           <li><a href="Services.html">Services</a></li>
-          <li><a href="index.html">Testimonal</a></li>
+          <li><a href="index.html">Community</a></li>
           <li><a href="Schedule.html">Schedule</a></li>
           <li><a href="Learn.html">Learn</a></li>
           <li><a href="Shop.html">Shop</a></li>
@@ -33,7 +45,7 @@
         <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24" fill="#646cff"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
         <li><a href="About.html">About Us</a></li>
         <li><a href="Services.html">Services</a></li>
-        <li><a href="index.html">Testimonal</a></li>
+        <li><a href="index.html">Community</a></li>
         <li><a href="Schedule.html">Schedule</a></li>
         <li><a href="Learn.html">Learn</a></li>
         <li><a href="Shop.html">Shop</a></li>

@@ -11,7 +11,7 @@ export default defineConfig({
         index: 'index.html',
         About: 'About.html',
         Services: 'Services.html',
-        Testimonial: 'Testimonial.html',
+        Community: 'Community.html',
         Schedule: 'Schedule.html',
         Learn: 'Learn.html',
         Shop: 'Shop.html',
